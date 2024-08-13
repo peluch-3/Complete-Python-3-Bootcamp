@@ -10,13 +10,12 @@ lista_numeros: list = [contador]
 
 while contador <= 100:
     print(contador)
-    print("Multiplos de 3 Primos")
+    print("Multiplos de 3")
     for numero in range(1, contador, 1):
         if numero % 3 == 0:
             print(numero)
-        if numero % 2 == 0.5:
+        if numero % 2 == 1:
             lista_numeros.append(numero)
-            print(numero)
     contador += 10
 print("FIM!")
-print(lista_numeros)
+print(f"Numeros primos: {lista_numeros}")
